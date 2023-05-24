@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin:auto;
+}
+
+form {
+    margin: auto;
+    width: max-content;
+}
+
+.delete-button{
+    color: red;
+    margin:auto;
+}
+
+.article-link{
+    text-align: center;
+}

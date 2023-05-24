@@ -1,0 +1,140 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding-left: 24px;
+
+    list-style-type: none;
+    overflow: hidden; /*Overflow MUST BE HIDDEN for the background color to work*/
+    background-color: black;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar li:hover {
+    display: inline;
+    float: left;
+
+    background-color: white;
+}
+
+/*controls link color and style*/
+.navbar li a {
+    display: block;
+
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: black;
+}
+
+.article-title {
+    margin: auto;
+    width: 500px;
+    max-width: 80vw;
+    text-align: center;
+}
+
+.article-info {
+    text-align: center;
+    margin: auto;
+
+    font-style: italic;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.article-paragraph {
+    width: 500px;
+    max-width: 80vw;
+
+    margin:auto;
+    margin-top: 12px;
+}
+
+.article-link{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.article-link a{
+    padding: 12px 12px 12px 12px;
+    
+    text-decoration: none;
+    
+    color: white;
+    background-color: black;
+    
+    border-radius: 12px;
+    border: none;
+}
+
+.article-link a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.search{
+    text-align: center;
+}
+
+.search p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.search p label {
+    margin-right: 8px;
+    margin-left: 32px;
+}
+
+.submit-button{
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+.search-result {
+    text-align: center;
+
+    margin-top: 12px;
+}
+
+.search-result a{
+    text-decoration: none;
+}
+
+.validation {
+    margin-top: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.center-image{
+    display: block;
+    margin:auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
